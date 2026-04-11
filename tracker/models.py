@@ -13,6 +13,7 @@ class EmailTrack(models.Model):
 
     opened = models.BooleanField(default=False)
     opened_at = models.DateTimeField(null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.recipient
