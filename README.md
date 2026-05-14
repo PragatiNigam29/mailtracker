@@ -77,6 +77,7 @@ venv\Scripts\activate
 ```bash
 source venv/bin/activate
 ```
+Live link-https://lnkd.in/gTyUCYx8
 
 ### 5. Install dependencies
 
